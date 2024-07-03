@@ -20,9 +20,9 @@ function page() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     getalldata()
+    console.log('cascsac')
 
   }, [
-    mydata
   ])
 
 
